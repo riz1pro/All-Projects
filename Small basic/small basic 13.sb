@@ -1,0 +1,7 @@
+GraphicsWindow.BackgroundColor ="red"
+Turtle.move(100)
+Turtle.TurnRight()
+Program.Delay(500)
+Turtle.move(100)
+Turtle.Angle = 360
+Turtle.Move(100)

@@ -1,0 +1,2 @@
+GraphicsWindow.DrawLine(200,200,10,10)
+GraphicsWindow.DrawLine(10,200,200,10)

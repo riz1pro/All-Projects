@@ -1,0 +1,4 @@
+TextWindow.BackgroundColor = "White"
+TextWindow.ForegroundColor = "Blue"
+Program.Delay(2000)
+TextWindow.WriteLine("Hello World!")

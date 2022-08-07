@@ -1,0 +1,9 @@
+Amount = 2
+While (Amount < 512)
+TextWindow.WriteLine(Amount)
+Amount = Amount * 2
+EndWhile
+Program.Delay(1000)
+For B = 1 To 10
+TextWindow.WriteLine(B)
+EndFor

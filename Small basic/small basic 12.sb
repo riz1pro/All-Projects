@@ -1,0 +1,7 @@
+GraphicsWindow.Width = 700
+GraphicsWindow.BackgroundColor = "blue"
+GraphicsWindow.PenColor = "pink"
+For X = 1 To 4
+Turtle.Move(75)
+Turtle.Turn(90)
+EndFor

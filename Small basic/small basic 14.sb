@@ -1,0 +1,18 @@
+TextWindow.Write("This programe will multiple certain numbers by 2.")
+Math ()
+Sub math
+Start:
+TextWindow.Write(" type 5, 10 or 15 to see the number multiplied by 2?")
+math_Choice = TextWindow.Read()
+If math_Choice = "5" Then
+textWindow.WriteLine(5 * 2)
+ElseIf math_Choice = "10" Then
+textWindow.WriteLine(10 * 2)
+ElseIf math_Choice = "15" Then
+textWindow.WriteLine(15 * 2)
+Else
+Goto Start
+EndIf
+EndSub
+math()
+math()

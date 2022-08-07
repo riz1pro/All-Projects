@@ -1,0 +1,5 @@
+Textwindow.writeline("what is your age for car insurance?")
+age = TextWindow.read()
+if age<=17 then  
+textwindow.WriteLine("you are eligible for car insurance") 
+endif
