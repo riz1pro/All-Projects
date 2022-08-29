@@ -1,0 +1,7 @@
+TextWindow.Write("What is your favorite car?")
+Audi= TextWindow.Read()
+TextWindow.WriteLine("Your favorite car is " + Audi + "! Audi!")
+TextWindow.Write("Which city would you most like to visit?: ")
+Tangier = TextWindow.Read()
+TextWindow.WriteLine(Tangier + "Tangier! sounds like a great place to visit! Don't forget to bring your computer with you!")
+TextWindow.CursorTop = "10"

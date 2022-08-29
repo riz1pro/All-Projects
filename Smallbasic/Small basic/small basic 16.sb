@@ -1,0 +1,8 @@
+Cars["Audi"]["Color"] = "Black"
+cars["Audi"]["model"] = "RS5
+cars["BMW"]["Color"] = "Grey"
+cars["BMW"]["model"] = "M5"
+TextWindow.Write("What is the car brand?: ")
+Name = TextWindow.Read()
+TextWindow.WriteLine("Their color is: " + Cars[Name]["Color"])
+TextWindow.WriteLine("Their model is: " + cars[Name]["model"])

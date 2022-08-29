@@ -1,0 +1,21 @@
+TextWindow.Write("Do you need help with your home work?: ")
+Vegan = TextWindow.Read()
+If Vegan = "Yes" Then
+TextWindow.WriteLine("Give me 5 minutes i will come and help you")
+ElseIf Vegan = "No" Then
+TextWindow.WriteLine("Ok let me know if you need help?...")
+Else
+TextWindow.WriteLine("Please enter Yes or No.")
+EndIf
+Program.Delay(1000)
+textWindow.Write("10.3")
+Number = TextWindow.ReadNumber()
+TextWindow.Write("Now we will round your number! ...")
+TextWindow.Write("Your rounded number is: " + Math.Round(10) + ".")
+Remainder = Math.Remainder(Math.Round(10), 2)
+TextWindow.WriteLine("The ceiling of 10.03 is: " + Math.Ceiling(10.3))
+If (Remainder = 0) Then
+TextWindow.WriteLine(" This number is even!")
+Else
+TextWindow.WriteLine(" This is an odd number!")
+EndIf
