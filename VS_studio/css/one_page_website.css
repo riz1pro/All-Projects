@@ -14,7 +14,7 @@ body {
     font-family: "Helvetica Heuce", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: rgb(148, 33, 33);
 }
 
 
@@ -37,7 +37,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
+    color: #481ce9;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
@@ -182,7 +182,7 @@ HOME SECTION STYLES
 ====================*/
 
 #home  {
-    background: url(../images/planets.jpg) no-repeat 50% 50%;
+    background: url(../images/supercars.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -193,7 +193,7 @@ HOME SECTION STYLES
     height: auto;
     padding-top: 350px; /* this is spacer before the main title logo*/
     padding-bottom: 500px ; /* this is spacer after the main title logo*/
-    color: #fff;
+    color: rgb(106, 5, 5);
 }
 
 
@@ -201,7 +201,7 @@ HOME SECTION STYLES
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: rgb(30, 115, 171);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
@@ -209,7 +209,7 @@ HOME SECTION STYLES
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff;
+    border: 5px double rgb(10, 1, 1);
     padding: 10px ;
 }
 
@@ -247,7 +247,7 @@ conatct STYLES
 }
 
 #contact {
-    background-color: #f5f3f3;
+    background-color: #3e3ed6;
 }
 
 
@@ -296,13 +296,13 @@ conatct STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #436b93;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 1px solid #8a73a8;
     margin: 2% auto;
     border-radius: 7px;
-    background-color: rgb(227,222,222);
+    background-color: rgb(69, 19, 73);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -312,7 +312,7 @@ conatct STYLES
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: #1d446c;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
