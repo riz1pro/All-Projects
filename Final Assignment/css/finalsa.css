@@ -7,7 +7,7 @@ body {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
@@ -27,7 +27,7 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Perpetua, Rockwell Extra bold;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 20px;
@@ -38,7 +38,7 @@ p {
 /* Paragraph element hover effect */
 p:hover {
     transition: transform 1s; /* This makes the transform effect last 1 second */
-	transform: scale(1.01); /* This makes the paragraphs increase slightly in size when hovered over */
+	transform: scale(1.05); /* This makes the paragraphs increase slightly in size when hovered over */
 }
 
 /* Center class - this applies to all elements with the class "center" */
@@ -55,7 +55,7 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: blue; /* This ensures all links are blue */
+    color: rgb(255, 0, 0); /* This ensures all links are blue */
 }
 
 /* Quotation elements */
@@ -184,7 +184,7 @@ footer {
 /* Texts over the video */
 .Video_Text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
-    color: white; /* Makes the font color white */
+    color: rgb(210, 203, 203); /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -293,6 +293,6 @@ form {
     border-radius: 5px; /* Rounds the corners of the contact form */
     background-color: #f2f2f2; 
     padding: 10px; /* Adds padding to the contact form */
-    font-family: "Trebuchet MS", Optima;
+    font-family: "Perpetua,", Optima;
 }
 /***** END OF CONTACT FORM STYLING *****/
