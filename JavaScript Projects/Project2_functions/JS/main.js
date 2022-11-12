@@ -1,7 +1,7 @@
 function My_First_Function () {   //defining a function and naming it
     var str="This text is green!";
     var result=str.fontcolor("green");
-    document.getElementByld("Green_Text").innerHTML=result;
+    document.getElementById("Green_Text").innerHTML=result;
 }
 
 function myFunction() {
