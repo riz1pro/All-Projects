@@ -1,6 +1,6 @@
 function addition_Function() {   //defining a function and naming it
-    var addtion = 2+2;
-    document.getElementById("Math").innerHTML="2+2 = "+ addtion;
+    var addtion = 2+2;            // this is the varialble
+    document.getElementById("Math").innerHTML="2+2 = "+ addtion; //Putting the value of the result
 }
 
 
@@ -35,16 +35,19 @@ function negation_operator() {
 
 
 function decrement_operator() {
-    var X = 10;
+    var X = 0;
     document.getElementById("Math7").innerHTML = --X;
 
 }
 
 
 
+
+
+
 function math_random() {
-    
-    document.getElementById("Math8").innerHTML = math_random ();
+    var X = 10;
+    document.getElementById("Math8").innerHTML = (Math.random() * 100);
 
 }
 
@@ -56,7 +59,7 @@ function math_random() {
 
 
 
-var X = 5;
+var X = 5; // for future reference all the below
 X++;
 document.write(X)
 
