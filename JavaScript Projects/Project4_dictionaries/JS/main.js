@@ -27,4 +27,6 @@ function delete_Operator() {
 }
 
 
+document.write(typeof"word");
 
+document.write(typeof 3);
