@@ -86,4 +86,16 @@ function not_Function() {
 function not1_Function() {
 
     document.getElementById("Not1").innerHTML = !(20>10);
+
+}
+
+
+document.write(Bigger = (5>1)? "Left number is bigger than":"Right number is bigger");
+
+
+function ride_Function()  {
+    var Height, Can_ride;
+    Height = document.getElementByID("Height").value;
+    Can_ride = (Height<52) ? "You are too short":"You are tall enough";
+    document.getElementById("Ride").innerHTML = Can_ride + "to ride.";
 }
