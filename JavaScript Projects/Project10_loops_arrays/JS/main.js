@@ -5,7 +5,7 @@ function for_Loop() {
     for (Y = 0; Y < Instruments.length; Y++) {
     Content += Instruments[Y] + "<br>";
     }
-    document.getElementById("List_of_Intsruments").innerHTML = Content;
+    document.getElementById("List_of_Instruments").innerHTML = Content;
 }
 
 
