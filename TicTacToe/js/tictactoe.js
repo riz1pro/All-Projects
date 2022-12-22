@@ -5,9 +5,9 @@ function placeXOrO(squareNumber) {
     if (!selectedSquares.some(element => element.includes(squareNumber)))  {
         let select = document.getElementById(squareNumber);
         if (activePlayer === 'X') { 
-            select.style.backgroundImage = 'url ("images/x.jpg")';
+            select.style.backgroundImage = 'url("images/x.png")';
         } else {
-            select.style.backgroundImage = 'url ("images/o.jpg")';
+            select.style.backgroundImage = 'url("images/o.png")';
         }
         selectedSquares.push(squareNumber + activePlayer);
         checkWinConditions();
@@ -86,7 +86,7 @@ function disableClick()   {
 
 
 function audio (audioURL)  {
-    let audio = new Audio(audioURL)
+    let audio = new Audio(audioURL);
     audio.play();
 }
 
@@ -107,7 +107,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2)  {
 
 function animateLineDrawing() {
     const animationLoop = requestAnimationFrame(animateLineDrawing);
-    c.clearRect(0, 0, 608, 608,);
+    c.clearRect(0, 0, 608, 608)
     c.beginPath();
     c.moveTo(x1, y1);
     c.lineTo (x, y);
