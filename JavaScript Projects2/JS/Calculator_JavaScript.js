@@ -106,6 +106,14 @@ if (target.classList.contains('decimal')) {
     return; 
 } 
 
+
+if (target.classList.contains('all-clear')) { 
+    Calculator_Reset(); 
+    Update_Display(); 
+    return; 
+} 
+
+
 Input_Digit(target.value); 
 Update_Display(); 
 }) 
