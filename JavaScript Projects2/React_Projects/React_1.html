@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="eng">
-	<head>
-    <meta charset="utf-8">
-	<title> </title>
 	
+    <meta charset="utf-8">
+	<title>React</title>
+	
+<head>
+	<script src="JS/react.js" ></script>
+	<script src="JS/react-dom.js"></script> 
+</head>
 
-	<script src="react.js"></script> 
-	<script src="react-dom.js"></script> 
+    <body>
 	
 	<div id="My_React_Code"></div> 
 	<script> 
@@ -20,11 +23,12 @@
 		}); 
 
 	var counter_Factory = React.createFactory(Counter); 
+
 	var start_Counting = new Date().getTime(); 
 	setInterval(function() { 
 		ReactDOM.render( 
 			counter_Factory({time_Passed: new Date().getTime() - start_Counting}), 
-			document.getElementById('My_React_Codel') 
+			document.getElementById('My_React_Code') 
 	
 			); 
 		}, 50); 
@@ -32,7 +36,7 @@
 		</script> 
 	
 
-
+    </body>
 
 
 
