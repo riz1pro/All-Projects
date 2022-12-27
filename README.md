@@ -1,9 +1,13 @@
 Projects 
+
 • Pizza Menu 
+
 • Tic-Tac-Toe Game 
+
 • Calculator 
 
-Pizza Menu 
+Pizza Menu
+
 This project is a menu used to order pizza with a various selection of toppings. It then takes the input information and caluclates a price for the order 
 
 Tic-Tac-Toe Game 
