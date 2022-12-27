@@ -1,5 +1,3 @@
-# HTML-and-CSS-Projects
-
 Projects 
 • Pizza Menu 
 • Tic-Tac-Toe Game 
@@ -13,5 +11,3 @@ The classic game of tic-tac-toe. It randomly rolls dice to select which of the t
 
 Calculator 
 A basic 4 function calculator. Users can add, subtract, multiply, and divide on a sleek web version of a calculator.
-This folder conatins my projects thtas
-
